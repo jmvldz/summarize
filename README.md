@@ -102,6 +102,12 @@ The tool looks for API keys in the following environment variables:
 - `OPENAI_API_KEY` - For GPT models
 - `ANTHROPIC_API_KEY` - For Claude models
 
+API keys can be set in environment variables or in a `.env` file in either:
+- Your home directory (`~/.env`)
+- The current working directory (`./.env`)
+
+The tool will automatically load environment variables from these files if they exist.
+
 ## License
 
 Apache-2.0
